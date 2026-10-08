@@ -1,0 +1,67 @@
+# Local environment files; examples must contain non-secret placeholders only.
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# Credentials and private keys.
+credentials*
+secrets/
+secrets.*
+.aws/
+.ssh/
+.netrc
+.npmrc
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local runtime data and third-party source collections (not for publication).
+/data/
+/runtime/
+/local/
+/posts/
+/exports/
+/archives/
+/source-archives/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Caches and generated audio.
+.cache/
+__pycache__/
+*.py[cod]
+/audio/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+# Downloaded model artifacts.
+/models/
+/checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Local development and tool state.
+.venv/
+venv/
+node_modules/
+.vscode/
+.idea/
+.pi/
+.no-mistakes/
+.DS_Store
+*.log
