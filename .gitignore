@@ -33,6 +33,12 @@ id_ed25519*
 *.tar.gz
 *.tgz
 *.7z
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
 
 # Caches and generated audio.
 .cache/
